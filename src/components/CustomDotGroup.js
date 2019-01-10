@@ -7,7 +7,7 @@ const CustomDotGroup = ({ slides, size }) => (
   <Container textAlign="center">
     <Button.Group size={size}>
       {[...Array(slides).keys()].map(slide => (
-        <Button as={Dot} icon="circle" slide={slide} />
+        <Button as={Dot} key={slide} icon="circle" slide={slide} />
       ))}
     </Button.Group>
   </Container>
