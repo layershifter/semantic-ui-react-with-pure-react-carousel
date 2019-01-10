@@ -12,7 +12,7 @@ const CustomCardSlide = ({ index, ...cardProps }) => (
 );
 
 CustomCardSlide.propTypes = {
-  slide: PropTypes.number.isRequired
+  index: PropTypes.number.isRequired
 };
 
 export default CustomCardSlide;
