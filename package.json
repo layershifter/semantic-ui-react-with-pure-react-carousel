@@ -1,8 +1,8 @@
 {
-  "name": "new",
+  "name": "semantic-ui-react-with-pure-react-carousel",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Sample carousels powered by semantic-ui-react and pure-react-carousel",
+  "keywords": ["semantic-ui-react"],
   "main": "src/index.js",
   "dependencies": {
     "prop-types": "15.6.2",
